@@ -1,0 +1,15 @@
+
+    RewriteEngine On
+    RewriteBase /
+  
+    # Redirect requests matching ^blog/(.*)$ to blog-details.html
+    RewriteRule ^blog/(.*)$ blog-details.html [L]
+    
+    # Redirect requests matching ^content/(.*)$ to content.html
+    RewriteRule ^content/(.*)$ content.html [L]
+    
+    # Redirect all requests to non-existing files or directories to 404.html
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ 404.html [L]
+  

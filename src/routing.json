@@ -1,0 +1,10 @@
+[
+    {
+      "path": "^blog/(.*)$",
+      "redirect": "blog-details.html"
+    },
+    {
+      "path": "^content/(.*)$",
+      "redirect": "content.html"
+    }
+]
