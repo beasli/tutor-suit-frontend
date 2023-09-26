@@ -1,0 +1,21 @@
+{
+   "prod": 
+   {
+        "API_BASE_URL": "https://admin.firsttoy.co/api",
+        "BASE_URL": "https://firsttoy.co/"     
+    },
+
+    "stage": 
+    {
+         "API_BASE_URL": "https://admin-firsttoy.myclientdemo.us/api",
+         "BASE_URL": "https://first-toy.myclientdemo.us/"
+ 
+         
+     },
+
+   "local":
+   { 
+        "API_BASE_URL": "https://admin-firsttoy.myclientdemo.us/api",
+        "BASE_URL": "http://127.0.0.1:5500/dist/"
+    }
+}
