@@ -18,7 +18,7 @@
 <ol>
     <li>Clone the Framework Zero repository:</li>
 </ol>
-<pre style="background: black; padding: 10px;"><code style="color: #76f476 !important;">git clone https://github.com/your-username/framework-zero.git</code></pre>
+<pre style="background: black; padding: 10px;"><code style="color: #76f476 !important;">git clone https://github.com/beasli/framework-zero.git</code></pre>
 <ol start="2">
     <li>Change to the project directory:</li>
 </ol>
